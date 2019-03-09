@@ -38,22 +38,24 @@ Close the postgres interface.
 
 **3. Specify database in your settings.py file.**
 
-`DATABASES = {
-    'default': {
+    DATABASES = {
+
+        'default': {
     
-        'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': 'django.db.backends.postgresql',
+
+            'NAME': 'your database name',
+
+            'USER': 'your postgres username',
+
+            'PASSWORD': 'your postgres password',
+
+            'HOST': '',
+
+            'PORT': '',
         
-        'NAME': 'your database name',
-        
-        'USER': 'your postgres username',
-        
-        'PASSWORD': 'your postgres password',
-        
-        'HOST': '',
-        
-        'PORT': '',
-        
-    }}`
+        }
+    }`
 
 ## Running the system
 Go to the folder that contains `manage.py` file.
