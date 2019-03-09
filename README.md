@@ -32,6 +32,7 @@ A postgres command line interface opens. Then:
 Close the postgres interface.
 
 **3. Specify database in your settings.py file.**
+
 `DATABASES = {
 
     'default': {
