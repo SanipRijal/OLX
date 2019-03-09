@@ -55,7 +55,6 @@ Close the postgres interface.
         'PORT': '',
         
     }
-    
 }`
 
 ## Running the system
