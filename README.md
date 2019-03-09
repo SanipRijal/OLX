@@ -39,7 +39,6 @@ Close the postgres interface.
 **3. Specify database in your settings.py file.**
 
 `DATABASES = {
-
     'default': {
     
         'ENGINE': 'django.db.backends.postgresql',
@@ -54,8 +53,7 @@ Close the postgres interface.
         
         'PORT': '',
         
-    }
-}`
+    }}`
 
 ## Running the system
 Go to the folder that contains `manage.py` file.
