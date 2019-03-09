@@ -21,14 +21,19 @@
 
 Example:
 `sudo apt-get install postgresql10`(ubuntu)
+
 `sudo brew install postgresql10`(macOS)
 
 **2. Create a database in postgresql with some name.**
 
 Example:
+
 `sudo -i -u postgres psql`
+
 A postgres command line interface opens. Then:
+
 `create database <database_name>;`
+
 Close the postgres interface.
 
 **3. Specify database in your settings.py file.**
@@ -55,4 +60,5 @@ Close the postgres interface.
 
 ## Running the system
 Go to the folder that contains `manage.py` file.
+
 `python manage.py runserver`
