@@ -18,25 +18,38 @@
 
 ## Setting up database
 **1. Install PostgreSQL10 in your system.**
+
 Example:
 `sudo apt-get install postgresql10`(ubuntu)
 `sudo brew install postgresql10`(macOS)
+
 **2. Create a database in postgresql with some name.**
+
 Example:
 `sudo -i -u postgres psql`
 A postgres command line interface opens. Then:
 `create database <database_name>;`
 Close the postgres interface.
+
 **3. Specify database in your settings.py file.**
 `DATABASES = {
+
     'default': {
+    
         'ENGINE': 'django.db.backends.postgresql',
+        
         'NAME': 'your database name',
+        
         'USER': 'your postgres username',
+        
         'PASSWORD': 'your postgres password',
+        
         'HOST': '',
+        
         'PORT': '',
+        
     }
+    
 }`
 
 ## Running the system
