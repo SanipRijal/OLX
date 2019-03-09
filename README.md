@@ -3,6 +3,7 @@
 ## Cloning
 **1. Using SSH keys**
 `git clone git@github.com:SanipRijal/OLX.git`
+
 **2. Using HTTPS**
 `git clone https://github.com/SanipRijal/OLX.git`
 
